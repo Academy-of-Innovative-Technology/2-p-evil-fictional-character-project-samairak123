@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "**/.vscode": true,
+        "**/.copilotignore": true
+    },
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.inlineSuggest.enable": false,
+    "workbench.startupEditor": "readme"
+}
