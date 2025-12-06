@@ -1,13 +1,13 @@
+
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
-    box-sizing: boarder-box;
+    box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, sans-serif;
-    background-color: #28a745;
-
+body {
+    font-family: 'Rock Salt', cursive;
+    background-color: #28a745; 
     color: #333;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     width: 100%;
     padding: 20px;
-    background-color: yellow; /* Yellow navbar */
+    background-color: yellow; 
     position: fixed;
     top: 0;
     left: 0;
@@ -29,10 +29,11 @@ body{
 }
 
 .navbar h1 {
-    font-size: 24px;
+    font-size: 36px; 
     color: #333;
     text-align: center;
     flex-grow: 1;
+    margin: 0 auto; 
 }
 
 .cart button {
@@ -47,6 +48,7 @@ body{
     background-color: #555;
 }
 
+
 .grinch-image {
     display: flex;
     justify-content: center;
@@ -54,14 +56,28 @@ body{
 }
 
 .grinch-image img {
-    width: 50%; /* Adjust image width */
+    width: 50%; 
     height: auto;
+    border-radius: 10px;
+}
+
+.grinch-blurb {
+    background-color: white; 
+    padding: 20px;
+    text-align: center; 
+    max-width: 800px; 
+    width: 90%; 
+    margin-top: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
     border-radius: 10px;
 }
 
 .grinch-blurb p {
     margin-bottom: 10px;
+    font-size: 1.2rem;
 }
+
 
 .product-grid {
     display: grid;
@@ -72,6 +88,7 @@ body{
     width: 100%;
     justify-items: center;
 }
+
 .product {
     background-color: white;
     padding: 20px;
@@ -81,31 +98,38 @@ body{
     width: 100%;
     max-width: 250px;
 }
+
 .product img {
     width: 100%;
     max-height: 200px;
     object-fit: cover;
     margin-bottom: 15px;
 }
+
 .product h2 {
     font-size: 18px;
     margin-bottom: 10px;
 }
+
 .product p {
     font-size: 16px;
     margin-bottom: 15px;
 }
+
 .product button {
-    background-color: #28a745; /* Green button */
+    background-color: #28a745; 
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
 }
+
 .product button:hover {
     background-color: #218838;
 }
+
+
 .cart-modal {
     position: fixed;
     top: 0;
@@ -117,6 +141,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .cart-modal-content {
     background-color: white;
     padding: 30px;
@@ -145,7 +170,20 @@ body{
     background-color: #c82333;
 }
 
-body {
-    font-family: 'Rock Salt', cursive;
+.song-link {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.song-link a {
+    font-size: 1.2rem;
+    color: #black; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.song-link a:hover {
+    text-decoration: underline; 
+    color: #red;
 }
 
