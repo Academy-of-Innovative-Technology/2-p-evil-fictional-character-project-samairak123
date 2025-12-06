@@ -46,3 +46,106 @@ body{
 .cart button:hover {
     background-color: #555;
 }
+
+.grinch-image {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 20px;
+}
+
+.grinch-image img {
+    width: 50%; /* Adjust image width */
+    height: auto;
+    border-radius: 10px;
+}
+
+.grinch-blurb p {
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 80px 20px 20px; 
+    max-width: 1200px;
+    width: 100%;
+    justify-items: center;
+}
+.product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 250px;
+}
+.product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.product h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.product p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.product button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product button:hover {
+    background-color: #218838;
+}
+.cart-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.cart-modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-footer button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-footer button:hover {
+    background-color: #c82333;
+}
+
+body {
+    font-family: 'Rock Salt', cursive;
+}
+
